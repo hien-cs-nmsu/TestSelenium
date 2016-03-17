@@ -1,0 +1,1 @@
+javac -cp "libs/*" TestSelenium.java

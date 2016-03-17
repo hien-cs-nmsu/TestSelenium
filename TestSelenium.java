@@ -6,11 +6,12 @@ import java.net.URL;
 
 public class TestSelenium {
 
-    public static final String USERNAME = "YOUR_USERNAME";
-    public static final String ACCESS_KEY = "YOUR_ACCESS_KEY";
+    public static final String USERNAME = "hienhangxanh";
+    public static final String ACCESS_KEY = "a0927855-52fa-4711-81ac-c9e1ee849f93";
     public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
     public static void main(String[] args) throws Exception {
+        
         DesiredCapabilities caps = DesiredCapabilities.chrome();
         caps.setCapability("platform", "Windows XP");
         caps.setCapability("version", "43.0");

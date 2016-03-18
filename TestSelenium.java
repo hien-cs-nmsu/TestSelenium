@@ -20,7 +20,7 @@ public class TestSelenium {
 /**
 * Goes to Sauce Lab's guinea-pig page and prints title
 */
-        driver.get("https://saucelabs.com/test/guinea-pig");
+        driver.get("http://128.123.177.36:8100/#/landinfo/login");
         System.out.println("title of page is: " + driver.getTitle());
         driver.quit();
     }
